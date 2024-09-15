@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administración de Productos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Administración de Productos</h1>
+        <nav>
+            <button>Inicio</button>
+            <button>Productos</button>
+            <button>Usuarios</button>
+        </nav>
+    </header>
+    <main>
+        <section class="product-list">
+            <h2>Lista de Productos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Stock</th>
+                        <th>Imagen</th>
+                        <th>Descripción</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="productTable">
+                    <!-- Productos se cargarán aquí -->
+                </tbody>
+            </table>
+        </section>
+        <section class="product-details">
+            <div class="product-form">
+                <h2>Agregar/Editar Producto</h2>
+                <form id="productForm">
+                    <input type="hidden" id="productId">
+                    <label for="productName">Nombre del Producto:</label>
+                    <input type="text" id="productName" required>
+                    <label for="productPrice">Precio:</label>
+                    <input type="number" id="productPrice" required>
+                    <label for="productStock">Stock:</label>
+                    <input type="number" id="productStock" required>
+                    <label for="productImage">Imagen:</label>
+                    <input type="file" id="productImage" accept="image/*" required>
+                    <label for="productDescription">Descripción:</label>
+                    <textarea id="productDescription" required></textarea>
+                    <button type="submit">Guardar</button>
+                </form>
+            </div>
+            <div class="product-preview">
+                <h2>Vista Previa</h2>
+                <div id="productPreview">
+                    <!-- Vista previa del producto -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

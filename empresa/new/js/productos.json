@@ -1,0 +1,182 @@
+[
+    {
+        "id": "cosa-01",
+        "titulo": "cosa 01",
+        "imagen": "./img//01.jpg",
+        "categoria": {
+            "nombre": "cosas",
+            "id": "cosa 1"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "cosa-02",
+        "titulo": "cosa 02",
+        "imagen": "./img//02.jpg",
+        "categoria": {
+            "nombre": "cosas",
+            "id": "cosa 1"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "cosa-03",
+        "titulo": "cosa 03",
+        "imagen": "./img//03.jpg",
+        "categoria": {
+            "nombre": "cosas",
+            "id": "cosa 1"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "cosa-04",
+        "titulo": "cosa 04",
+        "imagen": "./img//04.jpg",
+        "categoria": {
+            "nombre": "cosas",
+            "id": "cosa 1"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "cosa-05",
+        "titulo": "cosa 05",
+        "imagen": "./img//05.jpg",
+        "categoria": {
+            "nombre": "cosas",
+            "id": "cosa 1"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "cosa-01",
+        "titulo": "cosa 01",
+        "imagen": "./img//01.jpg",
+        "categoria": {
+            "nombre": "cosas",
+            "id": "cosa 2"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "cosa-02",
+        "titulo": "cosa 02",
+        "imagen": "./img//02.jpg",
+        "categoria": {
+            "nombre": "cosas",
+            "id": "cosa 2"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "cosa-03",
+        "titulo": "cosa 03",
+        "imagen": "./img//03.jpg",
+        "categoria": {
+            "nombre": "cosas",
+            "id": "cosa 2"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "cosa-04",
+        "titulo": "cosa 04",
+        "imagen": "./img//04.jpg",
+        "categoria": {
+            "nombre": "cosas",
+            "id": "cosa 2"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "cosa-05",
+        "titulo": "cosa 05",
+        "imagen": "./img//05.jpg",
+        "categoria": {
+            "nombre": "cosas",
+            "id": "cosa 2"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "cosa-06",
+        "titulo": "cosa 06",
+        "imagen": "./img//06.jpg",
+        "categoria": {
+            "nombre": "cosas",
+            "id": "cosa 2"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "cosa-07",
+        "titulo": "cosa 07",
+        "imagen": "./img//07.jpg",
+        "categoria": {
+            "nombre": "cosas",
+            "id": "cosa 2"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "cosa-08",
+        "titulo": "cosa 08",
+        "imagen": "./img//08.jpg",
+        "categoria": {
+            "nombre": "cosas",
+            "id": "cosa 2"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "cosa-01",
+        "titulo": "cosa 01",
+        "imagen": "./img//01.jpg",
+        "categoria": {
+            "nombre": "cosas",
+            "id": "cosa 3"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "cosa-02",
+        "titulo": "cosa 02",
+        "imagen": "./img//02.jpg",
+        "categoria": {
+            "nombre": "cosas",
+            "id": "cosa 3"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "cosa-03",
+        "titulo": "cosa 03",
+        "imagen": "./img//03.jpg",
+        "categoria": {
+            "nombre": "cosas",
+            "id": "cosa 3"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "cosa-04",
+        "titulo": "cosa 04",
+        "imagen": "./img//04.jpg",
+        "categoria": {
+            "nombre": "cosas",
+            "id": "cosa 3"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "cosa-05",
+        "titulo": "cosa 05",
+        "imagen": "./img//05.jpg",
+        "categoria": {
+            "nombre": "cosas",
+            "id": "cosa 3"
+        },
+        "precio": 1000
+    }
+]
