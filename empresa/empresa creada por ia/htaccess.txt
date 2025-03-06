@@ -1,0 +1,28 @@
+RewriteEngine On
+RewriteBase /carpinteria/
+
+# Permitir acceso directo a los archivos y directorios existentes
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redirigir todas las solicitudes a index.php
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+
+# Proteger archivos sensibles
+<FilesMatch "^\.ht">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+<FilesMatch "^(config\.php|database\.php)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# PHP configuración
+php_flag display_errors On
+php_value max_execution_time 30
+php_value max_input_time 60
+php_value memory_limit 128M
+php_value post_max_size 20M
+php_value upload_max_filesize 10M
